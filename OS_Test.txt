@@ -1,0 +1,7 @@
+1. grep -oEi '^(SANPICHAIKORN)+' email.txt
+
+2. grep -oE '\b(6452300407)+@[A-Za-z0-9.-]+.[A-Z|a-z]{2,}\b' email.txt // โชว์เฉพาะของตัวเอง
+      grep -oE '\b[0-9]+@[A-Za-z0-9.-]+.[A-Z|a-z]{2,}\b' email.txt  // โชว์ของทุกคน
+
+3. grep -oE '\b(6452300407)' email.txt // โชว์เฉพาะของตัวเอง
+      grep -oE '\b[0-9]+' email.txt  // โชว์ของทุกคน
